@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <body>
+        <div class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="transaction.html">Transactions</a></li>
+         
+              <li><a href="accountdetails.html">Account Details</a></li>
+              
+            <li><a href="login.html">Login</a></li>
+            <li><a href="logout.html">Logout</a></li>
+          </ul>
+        </div>
+      </body>
+  <title>Money Withdrawal - Online Bank Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Money Withdrawal - Online Bank Management System</h1>
+    
+    <form>
+      <div class="form-group">
+        <label for="accountNumber">Account Number:</label>
+        <input type="text" id="accountNumber" name="accountNumber" required>
+      </div>
+
+      <div class="form-group">
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount" required>
+      </div>
+
+      <div class="form-group">
+        <input type="button" value="Withdraw" class="button" onclick="withdrawMoney()">
+      </div>
+    </form>
+  </div>
+
+  <script>
+    function withdrawMoney() {
+      var accountNumber = document.getElementById('accountNumber').value;
+      var amount = document.getElementById('amount').value;
+
+      // Perform validation and submit the data to the server for processing
+      // You can use AJAX or form submission to send the data to the server-side script
+      // Example: AJAX code using jQuery
+      /*
+      $.ajax({
+        url: 'withdraw.php',
+        type: 'POST',
+        data: {
+          accountNumber: accountNumber,
+          amount: amount
+        },
+        success: function(response) {
+          // Handle the server response
+        }
+      });
+      */
+    }
+  </script>
+</body>
+</html>

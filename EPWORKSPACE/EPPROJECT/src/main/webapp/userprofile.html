@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Bank Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar li {
+      margin-right: 10px;
+    }
+
+    .navbar li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar li a:hover {
+      background-color: #111;
+    }
+
+    .navbar .user-profile {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar .user-profile img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .navbar .right-links {
+      margin-left: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="transaction.html">Transactions</a></li>
+      <li><a href="accountdetails.html">Account Details</a></li>
+    </ul>
+    
+    <ul class="right-links">
+      <div class="user-profile">
+        <a href="accountdetails.html">
+          <img src="images/jsk.png" alt="Profile Logo">
+        </a>
+        <span>JSK </span>
+      </div>
+      <li><a href="login.html"><img src="images/login.png" alt="Login"></a></li>
+      <li><a href="logout.html"><img src="images/logout.png" alt="Logout"></a></li>
+    </ul>
+  </div>
+</body>
+</html>

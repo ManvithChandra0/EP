@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empdata>
+
+<employee gender="FEMALE">
+<id>101</id>
+<name>KLU</name>
+<salary>1000.50</salary>
+<address>
+<city>GUNTUR</city>
+<state>ANDHRA PRADESH</state>
+</address>
+</employee>
+
+<employee gender="MALE">
+<id>102</id>
+<name>SURYA</name>
+<salary>1234.50</salary>
+<address>
+<city>VIZAG</city>
+<state>ANDHRA PRADESH</state>
+</address>
+</employee>
+
+<employee gender="MALE" language="en">
+<id>103</id>
+<name>MANVITH</name>
+<salary>100000.50</salary>
+<address>
+<city>KARIMNAGAR</city>
+<state>ANDHRA PRADESH</state>
+</address>
+</employee>
+
+</empdata>

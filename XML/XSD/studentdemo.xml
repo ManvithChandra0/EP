@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<employees
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="student.xsd">
+
+    <employee department="CSE">
+    <id>12345</id>
+    <name>MANVITH</name>
+    <salary>55000</salary>
+    <dob>2003-06-15</dob>
+    <status>true</status>
+    </employee>
+    <employee department="ECE">
+    <id>12346</id>
+    <name>MANVITH CHANDRA</name>
+    <salary>70000</salary>
+    <dob>2004-06-15</dob>
+    <status>false</status>
+    </employee>
+    
+    
+</employees>

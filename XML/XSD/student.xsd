@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<klu:schema xmlns:klu="http://www.w3.org/2001/XMLSchema">
+    <klu:element name="employees">
+        <klu:complexType>
+        <klu:sequence>
+
+        <klu:element name="employee" maxOccurs="5"> 
+        <klu:complexType>
+        <klu:sequence>
+        <klu:element name="id">
+        <klu:simpleType>
+        <klu:restriction base="klu:integer">
+        <klu:totalDigits value="5"></klu:totalDigits>
+        </klu:restriction>
+        </klu:simpleType>
+        </klu:element>
+
+        <klu:element name="name">
+        <klu:simpleType>
+        <klu:restriction base="klu:string">
+        <klu:minLength value="5"></klu:minLength>
+        </klu:restriction>
+        </klu:simpleType>
+        </klu:element>
+
+        <klu:element name="salary">
+        <klu:simpleType>
+        <klu:restriction base="klu:float">
+        <klu:minInclusive value="50000"></klu:minInclusive>
+        <klu:maxExclusive value="80000"></klu:maxExclusive>
+        </klu:restriction>
+        </klu:simpleType>
+        </klu:element>
+
+        <klu:element name="dob" type="klu:date"></klu:element>
+
+        <klu:element name="status" type="klu:boolean"></klu:element>
+        </klu:sequence>
+        <klu:attribute name="department" type="klu:string" use="required"></klu:attribute>
+
+        </klu:complexType>
+        </klu:element>
+        </klu:sequence>
+        </klu:complexType>
+    </klu:element>
+</klu:schema>

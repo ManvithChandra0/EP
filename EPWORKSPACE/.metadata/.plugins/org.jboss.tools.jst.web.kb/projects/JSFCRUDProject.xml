@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/Users/manvithchandra/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.3_spec/2.0.0.Final/jboss-transaction-api_1.3_spec-2.0.0.Final.jar"/>
+  <path value="/JSFCRUDProject/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="JSFCRUDProject"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/Users/manvithchandra/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar"/>
+  <path value="/Users/manvithchandra/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="/Users/manvithchandra/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar"/>
+  <path value="/Users/manvithchandra/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="/Users/manvithchandra/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.2_spec/2.0.0.Final/jboss-ejb-api_3.2_spec-2.0.0.Final.jar"/>
+  <path value="/Users/manvithchandra/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.14/jboss-jsf-api_2.2_spec-2.2.14.jar"/>
+  <path value="/Users/manvithchandra/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"/>
+  <path value="/Users/manvithchandra/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar"/>
+  <path value="/Users/manvithchandra/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="17" name="%0" offset="1510" path="%1"/>
+   <linked-el length="24" name="%0" offset="1333" path="%1"/>
+   <linked-el length="31" name="%0" offset="1797" path="%1"/>
+   <linked-el length="13" name="%0" offset="1089" path="%1"/>
+   <linked-el length="21" name="%0" offset="1425" path="%1"/>
+   <linked-el length="20" name="%0" offset="1677" path="%1"/>
+   <linked-el length="15" name="%0" offset="1164" path="%1"/>
+   <linked-el length="17" name="%0" offset="1243" path="%1"/>
+   <linked-el length="16" name="%0" offset="1593" path="%1"/>
+   <linked-el length="24" name="%2" offset="1333" path="%1"/>
+   <linked-el length="27" name="%2" offset="1631" path="%3"/>
+   <linked-el length="20" name="%2" offset="1760" path="%3"/>
+   <linked-el length="22" name="%2" offset="2336" path="%3"/>
+   <linked-el length="23" name="%2" offset="2464" path="%3"/>
+   <linked-el length="18" name="%2" offset="1186" path="%3"/>
+   <linked-el length="23" name="%2" offset="1890" path="%3"/>
+   <linked-el length="24" name="%2" offset="1593" path="%4"/>
+   <linked-el length="19" name="%2" offset="2211" path="%3"/>
+   <linked-el length="16" name="%2" offset="1593" path="%1"/>
+   <linked-el length="22" name="%2" offset="1547" path="%5"/>
+   <linked-el length="16" name="%2" offset="1061" path="%3"/>
+   <linked-el length="22" name="%2" offset="2533" path="%3"/>
+   <linked-el length="19" name="%2" offset="1318" path="%3"/>
+   <linked-el length="25" name="%2" offset="2162" path="%5"/>
+   <linked-el length="31" name="%2" offset="1797" path="%1"/>
+   <linked-el length="16" name="%2" offset="949" path="%5"/>
+   <linked-el length="13" name="%2" offset="1089" path="%1"/>
+   <linked-el length="19" name="%2" offset="959" path="%4"/>
+   <linked-el length="23" name="%2" offset="1913" path="%5"/>
+   <linked-el length="20" name="%2" offset="1677" path="%1"/>
+   <linked-el length="15" name="%2" offset="1164" path="%1"/>
+   <linked-el length="20" name="%2" offset="1208" path="%5"/>
+   <linked-el length="21" name="%2" offset="979" path="%1"/>
+   <linked-el length="22" name="%2" offset="1297" path="%4"/>
+   <linked-el length="21" name="%2" offset="1425" path="%1"/>
+   <linked-el length="17" name="%2" offset="1243" path="%1"/>
+   <linked-el length="17" name="%2" offset="1510" path="%1"/>
+   <linked-el length="21" name="%6" offset="979" path="%1"/>
+   <linked-el length="22" name="%6" offset="1297" path="%4"/>
+   <linked-el length="27" name="%6" offset="1631" path="%3"/>
+   <linked-el length="20" name="%6" offset="1760" path="%3"/>
+   <linked-el length="22" name="%6" offset="2336" path="%3"/>
+   <linked-el length="23" name="%6" offset="2464" path="%3"/>
+   <linked-el length="18" name="%6" offset="1186" path="%3"/>
+   <linked-el length="23" name="%6" offset="1890" path="%3"/>
+   <linked-el length="24" name="%6" offset="1593" path="%4"/>
+   <linked-el length="19" name="%6" offset="2211" path="%3"/>
+   <linked-el length="22" name="%6" offset="1547" path="%5"/>
+   <linked-el length="16" name="%6" offset="1061" path="%3"/>
+   <linked-el length="22" name="%6" offset="2533" path="%3"/>
+   <linked-el length="19" name="%6" offset="1318" path="%3"/>
+   <linked-el length="25" name="%6" offset="2162" path="%5"/>
+   <linked-el length="31" name="%6" offset="1797" path="%1"/>
+   <linked-el length="16" name="%6" offset="949" path="%5"/>
+   <linked-el length="19" name="%6" offset="959" path="%4"/>
+   <linked-el length="23" name="%6" offset="1913" path="%5"/>
+   <linked-el length="20" name="%6" offset="1208" path="%5"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/JSFCRUDProject/src/main/java/com/klef/ep/models/Employee.java" value="%0"/>
+  <alias path="/JSFCRUDProject/src/main/webapp/empreg.xhtml" value="%3"/>
+  <alias path="/JSFCRUDProject/src/main/webapp/emplogin.xhtml" value="%4"/>
+  <alias path="empbean" value="%2"/>
+  <alias path="/JSFCRUDProject/src/main/webapp/updateemp.xhtml" value="%5"/>
+  <alias path="/JSFCRUDProject/src/main/webapp/viewallemps.xhtml" value="%1"/>
+  <alias
+   path="/JSFCRUDProject/src/main/java/com/klef/ep/beans/EmployeeBean.java" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

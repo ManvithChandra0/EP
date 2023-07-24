@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+    <!ELEMENT students (student)+>
+    <!ELEMENT student (id,name,department,cgpa,status)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT department (#PCDATA)>
+    <!ELEMENT cgpa ANY>
+    <!ELEMENT status EMPTY>
+    <!ATTLIST student course CDATA #REQUIRED>
+    <!ATTLIST student backlogs CDATA #IMPLIED>
+    <!ATTLIST student college CDATA #FIXED "KLU">
+    <!ATTLIST student gender (male|female|others) #REQUIRED>
+    <!ATTLIST department type (regular|advanced) #REQUIRED>
+    <!ENTITY CSE "Computer Science and Engineering">
+    <!ENTITY CE "Civil Engineering">
+]>
+<students>
+<student course="EP" backlogs="2" college="KLU" gender="male">
+<id>101</id>
+<name>&quot;MANVITH&quot;</name>
+<department type="regular">&CSE;</department>
+<cgpa>9.47</cgpa>
+<status />
+</student>
+
+<student course="PFSD"  gender="female">
+<id>102</id>
+<name>&apos;;CHANDRA&apos;</name>
+<department type="regular">&CE;</department>
+<cgpa>9</cgpa>
+<status />
+</student>
+
+</students>

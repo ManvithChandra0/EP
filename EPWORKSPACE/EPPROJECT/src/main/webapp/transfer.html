@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Bank Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar li {
+      margin-right: 10px;
+    }
+
+    .navbar li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar li a:hover {
+      background-color: #111;
+    }
+
+    .navbar .user-profile {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar .user-profile img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .navbar .right-links {
+      margin-left: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="transaction.html">Transactions</a></li>
+      <li><a href="accountdetails.html">Account Details</a></li>
+    </ul>
+    
+    <ul class="right-links">
+      <div class="user-profile">
+        <a href="accountdetails.html">
+          <img src="images/jsk.png" alt="Profile Logo">
+        </a>
+        <span>JSK </span>
+      </div>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="logout.html">Logout</a></li>
+    </ul>
+  </div>
+</body>
+</html>
+
+  <title>Money Transfer</title>
+  <style>
+    /* Form styles */
+    .transfer-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .transfer-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .transfer-form input[type="text"],
+    .transfer-form input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .transfer-form button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .transfer-form button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Money Transfer</h1>
+
+  <form class="transfer-form">
+    <label for="fromAccount">From Account:</label>
+    <input type="text" id="fromAccount" name="fromAccount" placeholder="Enter your account number" required>
+<br>
+<br>
+    <label for="toAccount">To Account:</label>
+    <input type="text" id="toAccount" name="toAccount" placeholder="Enter recipient's account number" required>
+<br>
+<br>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" placeholder="Enter the transfer amount" required>
+
+    <br>
+    <br>
+
+    <center><button type="submit">Transfer</button></center>
+  </form>
+
+
+</body>
+</html>

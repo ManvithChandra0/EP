@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Bank Management System - Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .navbar li {
+      float: left;
+    }
+
+    .navbar li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar li a:hover {
+      background-color: #111;
+    }
+
+    .dashboard {
+      margin: 20px;
+    }
+
+    .dashboard h1 {
+      margin-bottom: 20px;
+    }
+
+    .dashboard-content {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .dashboard-item {
+      flex-basis: 30%;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 4px;
+    }
+
+    .dashboard-item h2 {
+      margin-top: 0;
+    }
+
+    .dashboard-item p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="transaction.html">Transactions</a></li>
+      
+          <li><a href="accountdetails.html">Account Details</a></li>
+          
+        <li><a href="login.html">Login</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </div>
+
+  <div class="dashboard">
+    <h1>Welcome to your Dashboard</h1>
+
+    <div class="dashboard-content">
+      <div class="dashboard-item">
+        <h2>Account Balance</h2>
+        <p>$10,000</p>
+      </div>
+      <div class="dashboard-item">
+        <h2>Recent Transactions</h2>
+        <p>Transaction 1</p>
+        <p>Transaction 2</p>
+        <p>Transaction 3</p>
+      </div>
+      <div class="dashboard-item">
+        <h2>Notifications</h2>
+        <p>No new notifications</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

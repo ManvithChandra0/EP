@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="faculty.xsl" type="text/xsl"?>
+
+<facultydata>
+
+<faculty department="CSE">
+<id>4654</id>
+<name>J SURYA KIRAN</name>
+<gender>MALE</gender>
+<contact>9090909090</contact>
+<email>surya@gmail.com</email>
+</faculty>
+
+<faculty department="ECE">
+<id>4414</id>
+<name>Hari Kiran Vege</name>
+<gender>MALE</gender>
+<contact>9090909045</contact>
+<email>hari@gmail.com</email>
+</faculty>
+
+
+</facultydata>

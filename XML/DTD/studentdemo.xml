@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "studentexternal.dtd"[
+    <!ENTITY CSE "Computer Science and Engineering">
+    <!ENTITY CE "Civil Engineering">
+]>
+<students>
+<student course="EP" backlogs="2" college="KLU" gender="male">
+<id>101</id>
+<name>&quot;MANVITH&quot;</name>
+<department type="regular">&CSE;</department>
+<cgpa>9.47</cgpa>
+<status />
+</student>
+
+<student course="PFSD"  gender="female">
+<id>102</id>
+<name>&apos;;CHANDRA&apos;</name>
+<department type="regular">&CE;</department>
+<cgpa>9</cgpa>
+<status />
+</student>
+
+</students>

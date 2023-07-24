@@ -1,0 +1,27 @@
+facultydata
+{
+    background-color: lightblue;
+    width: 50%;
+}
+faculty::before
+{
+    content: attr(department);
+    color: red;
+}
+faculty
+{
+    background-color: gray;
+    font-size: 30pt;
+    display: block;
+}
+id
+{
+    font-size: 20pt;
+    color: blue;
+}
+name, gender
+{
+    
+    font-size: 20pt;
+    color: pink;
+}

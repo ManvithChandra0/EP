@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>         <!-- Root Element -->
+
+<student>
+<id>101</id>
+<name>PRABHAS</name>
+<gender>MALE</gender>
+</student>
+
+<student>
+<id>102</id>
+<name>KLU</name>
+<gender>FEMALE</gender>
+</student>
+
+<student>
+<id>103</id>
+<name>SEETHA</name>
+<gender>FEMALE</gender>
+</student>
+
+</students>

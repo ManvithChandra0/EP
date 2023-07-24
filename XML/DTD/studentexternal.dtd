@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!ELEMENT students (student)+>
+    <!ELEMENT student (id,name,department,cgpa,status)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT department (#PCDATA)>
+    <!ELEMENT cgpa ANY>
+    <!ELEMENT status EMPTY>
+    <!ATTLIST student course CDATA #REQUIRED>
+    <!ATTLIST student backlogs CDATA #IMPLIED>
+    <!ATTLIST student college CDATA #FIXED "KLU">
+    <!ATTLIST student gender (male|female|others) #REQUIRED>
+    <!ATTLIST department type (regular|advanced) #REQUIRED>
+
